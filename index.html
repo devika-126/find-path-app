@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Path</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Path</h1>
+        <div class="input-container">
+            <input type="text" id="name" placeholder="Name" />
+            <input type="number" id="value" placeholder="Value" />
+            <button onclick="addEntry()">Add</button>
+        </div>
+        <div class="entries-container">
+            <h2>Entries</h2>
+            <ul id="entriesList"></ul>
+        </div>
+        <button onclick="calculatePath()">Calculate Path</button>
+        <div class="output-container">
+            <h2>Results</h2>
+            <ul id="resultsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
